@@ -1,32 +1,26 @@
+
+<style lang="less">
+  @import "../packages/styles/index.less";
+</style>
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <vc-textarea></vc-textarea>
-    <vc-input></vc-input>
+    
+    <vc-buttom>123</vc-buttom>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 import vcrui from '../packages/index' 
 import Vue from 'vue'            
 Vue.use(vcrui)
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

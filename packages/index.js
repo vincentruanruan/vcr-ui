@@ -1,11 +1,13 @@
 // 导入单个组件
-import Textarea from './textarea/index'
-import Input from './input/index'
+import Textarea from './components/textarea/index'
+import Input from './components/input/index'
+import VCButton from './components/vc-button/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
     Textarea,
-    Input
+    Input,
+    VCButton
 ]
 
 // 定义 install 方法
