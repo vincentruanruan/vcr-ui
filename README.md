@@ -1,4 +1,4 @@
-# vc-ui
+# vcr-ui
 
 ## Project setup
 ```

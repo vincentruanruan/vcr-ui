@@ -11,6 +11,7 @@ module.exports = {
             filename: 'index.html'
         }
     },
+    
 
     pluginOptions: {
         'style-resources-loader': {
@@ -21,6 +22,6 @@ module.exports = {
                 path.resolve(__dirname, "./packages/styles/index.less")
             ]
         }
-    },
+    }
     
 }

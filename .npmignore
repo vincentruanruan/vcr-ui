@@ -8,6 +8,9 @@ vue.config.js
 babel.config.js
 *.map
 *.html
+build/
+test/
+gulpfile.js
 
 # local env files
 .env.local
